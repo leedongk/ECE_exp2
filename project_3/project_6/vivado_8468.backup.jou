@@ -1,0 +1,109 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Tue Nov 15 09:21:45 2022
+# Process ID: 8468
+# Current directory: C:/Git/ECE_exp2/project_3/project_6
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5840 C:\Git\ECE_exp2\project_3\project_6\project_6.xpr
+# Log file: C:/Git/ECE_exp2/project_3/project_6/vivado.log
+# Journal file: C:/Git/ECE_exp2/project_3/project_6\vivado.jou
+# Running On: LAPTOP-A6BJSN7U, OS: Windows, CPU Frequency: 3294 MHz, CPU Physical cores: 12, Host memory: 14888 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Git/ECE_exp2/project_3/project_6/project_6.xpr
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+place_ports clk B6
+place_ports dac_a_b G2
+place_ports dac_csn E1
+place_ports dac_ldacn E4
+place_ports dac_wrn G4
+place_ports rst Y1
+place_ports {btn[5]} K4
+startgroup
+set_property package_pin "" [get_ports [list  {btn[5]}]]
+place_ports {btn[0]} K4
+endgroup
+place_ports {btn[0]} L1
+place_ports {btn[1]} K4
+place_ports {btn[2]} N8
+place_ports {btn[3]} N4
+place_ports {btn[4]} N1
+place_ports {btn[5]} P6
+place_ports {dac_d[7]} B3
+place_ports {dac_d[6]} B1
+place_ports {dac_d[5]} C4
+place_ports {dac_d[4]} C2
+place_ports {dac_d[3]} D5
+place_ports {dac_d[2]} D2
+place_ports {dac_d[1]} E5
+place_ports {dac_d[0]} E3
+place_ports {led_out[0]} L4
+place_ports {led_out[1]} M4
+place_ports {led_out[2]} M2
+place_ports {led_out[3]} N7
+place_ports {led_out[4]} M7
+place_ports {led_out[5]} M3
+place_ports {led_out[6]} M1
+place_ports {led_out[7]} N5
+place_ports add_sel W3
+file mkdir C:/Git/ECE_exp2/project_3/project_6/project_6.srcs/constrs_1/new
+close [ open C:/Git/ECE_exp2/project_3/project_6/project_6.srcs/constrs_1/new/DAC1.xdc w ]
+add_files -fileset constrs_1 C:/Git/ECE_exp2/project_3/project_6/project_6.srcs/constrs_1/new/DAC1.xdc
+set_property target_constrs_file C:/Git/ECE_exp2/project_3/project_6/project_6.srcs/constrs_1/new/DAC1.xdc [current_fileset -constrset]
+save_constraints -force
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+reset_run synth_1
+set_property IOSTANDARD LVCMOS33 [get_ports [list add_sel]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list clk]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list dac_a_b]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list dac_csn]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list dac_ldacn]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list dac_wrn]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list rst]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {btn[5]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {btn[4]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {btn[3]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {btn[2]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {btn[1]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {btn[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {dac_d[7]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {dac_d[5]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {dac_d[6]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {dac_d[5]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {dac_d[4]}]]
+set_property IOSTANDARD SSTL15_R [get_ports [list {dac_d[2]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {dac_d[3]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {dac_d[2]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {dac_d[1]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {dac_d[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {led_out[7]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {led_out[6]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {led_out[5]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {led_out[4]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {led_out[3]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {led_out[2]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {led_out[1]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {led_out[0]}]]
+save_constraints
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+open_hw_target
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+open_hw_target
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+open_hw_target

@@ -1,0 +1,279 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Tue Nov 15 09:21:45 2022
+# Process ID: 8468
+# Current directory: C:/Git/ECE_exp2/project_3/project_6
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5840 C:\Git\ECE_exp2\project_3\project_6\project_6.xpr
+# Log file: C:/Git/ECE_exp2/project_3/project_6/vivado.log
+# Journal file: C:/Git/ECE_exp2/project_3/project_6\vivado.jou
+# Running On: LAPTOP-A6BJSN7U, OS: Windows, CPU Frequency: 3294 MHz, CPU Physical cores: 12, Host memory: 14888 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Git/ECE_exp2/project_3/project_6/project_6.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Git/ECE_exp2/project_3/project_6/project_6.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.1/data/ip'.
+open_project: Time (s): cpu = 00:00:37 ; elapsed = 00:00:15 . Memory (MB): peak = 1235.980 ; gain = 0.000
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7s75fgga484-1
+Top: DAC
+INFO: [Device 21-403] Loading part xc7s75fgga484-1
+ERROR: [Synth 8-36] 'seg' is not declared [C:/Git/ECE_exp2/project_3/project_6/project_6.srcs/sources_1/new/DAC.v:1]
+INFO: [Synth 8-8750] module 'DAC' ignored due to previous errors [C:/Git/ECE_exp2/project_3/project_6/project_6.srcs/sources_1/new/DAC.v:81]
+Failed to read verilog 'C:/Git/ECE_exp2/project_3/project_6/project_6.srcs/sources_1/new/DAC.v'
+2 Infos, 0 Warnings, 0 Critical Warnings and 2 Errors encountered.
+synth_design failed
+ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details
+WARNING: [filemgmt 56-315] Source scanning failed during design analysis. To get more details run synthesis or simulation and check the log.
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7s75fgga484-1
+Top: DAC
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1840.508 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'DAC' [C:/Git/ECE_exp2/project_3/project_6/project_6.srcs/sources_1/new/DAC.v:1]
+INFO: [Synth 8-6157] synthesizing module 'oneshot_universal' [C:/Git/ECE_exp2/project_3/project_6/project_6.srcs/sources_1/new/oneshot_universal.v:1]
+	Parameter WIDTH bound to: 6 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'oneshot_universal' (0#1) [C:/Git/ECE_exp2/project_3/project_6/project_6.srcs/sources_1/new/oneshot_universal.v:1]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Git/ECE_exp2/project_3/project_6/project_6.srcs/sources_1/new/DAC.v:30]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Git/ECE_exp2/project_3/project_6/project_6.srcs/sources_1/new/DAC.v:49]
+INFO: [Synth 8-6155] done synthesizing module 'DAC' (0#1) [C:/Git/ECE_exp2/project_3/project_6/project_6.srcs/sources_1/new/DAC.v:1]
+WARNING: [Synth 8-6014] Unused sequential element cnt_reg was removed.  [C:/Git/ECE_exp2/project_3/project_6/project_6.srcs/sources_1/new/DAC.v:32]
+WARNING: [Synth 8-6014] Unused sequential element dac_ldacn_reg was removed.  [C:/Git/ECE_exp2/project_3/project_6/project_6.srcs/sources_1/new/DAC.v:78]
+WARNING: [Synth 8-7137] Register dac_d_reg in module DAC has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Git/ECE_exp2/project_3/project_6/project_6.srcs/sources_1/new/DAC.v:55]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1914.480 ; gain = 73.973
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1914.480 ; gain = 73.973
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1914.480 ; gain = 73.973
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1914.480 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1993.195 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:28 ; elapsed = 00:00:19 . Memory (MB): peak = 2048.727 ; gain = 208.219
+8 Infos, 3 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:28 ; elapsed = 00:00:21 . Memory (MB): peak = 2048.727 ; gain = 208.219
+place_ports clk B6
+place_ports dac_a_b G2
+place_ports dac_csn E1
+place_ports dac_ldacn E4
+place_ports dac_wrn G4
+place_ports rst Y1
+place_ports {btn[5]} K4
+startgroup
+set_property package_pin "" [get_ports [list  {btn[5]}]]
+place_ports {btn[0]} K4
+endgroup
+place_ports {btn[0]} L1
+place_ports {btn[1]} K4
+place_ports {btn[2]} N8
+place_ports {btn[3]} N4
+place_ports {btn[4]} N1
+place_ports {btn[5]} P6
+place_ports {dac_d[7]} B3
+place_ports {dac_d[6]} B1
+place_ports {dac_d[5]} C4
+place_ports {dac_d[4]} C2
+place_ports {dac_d[3]} D5
+place_ports {dac_d[2]} D2
+place_ports {dac_d[1]} E5
+place_ports {dac_d[0]} E3
+place_ports {led_out[0]} L4
+place_ports {led_out[1]} M4
+place_ports {led_out[2]} M2
+place_ports {led_out[3]} N7
+place_ports {led_out[4]} M7
+place_ports {led_out[5]} M3
+place_ports {led_out[6]} M1
+place_ports {led_out[7]} N5
+place_ports add_sel W3
+file mkdir C:/Git/ECE_exp2/project_3/project_6/project_6.srcs/constrs_1/new
+close [ open C:/Git/ECE_exp2/project_3/project_6/project_6.srcs/constrs_1/new/DAC1.xdc w ]
+add_files -fileset constrs_1 C:/Git/ECE_exp2/project_3/project_6/project_6.srcs/constrs_1/new/DAC1.xdc
+set_property target_constrs_file C:/Git/ECE_exp2/project_3/project_6/project_6.srcs/constrs_1/new/DAC1.xdc [current_fileset -constrset]
+save_constraints -force
+launch_runs synth_1 -jobs 6
+WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
+[Tue Nov 15 09:30:05 2022] Launched synth_1...
+Run output will be captured here: C:/Git/ECE_exp2/project_3/project_6/project_6.runs/synth_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Git/ECE_exp2/project_3/project_6/project_6.runs/synth_1
+
+set_property IOSTANDARD LVCMOS33 [get_ports [list add_sel]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list clk]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list dac_a_b]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list dac_csn]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list dac_ldacn]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list dac_wrn]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list rst]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {btn[5]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {btn[4]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {btn[3]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {btn[2]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {btn[1]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {btn[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {dac_d[7]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {dac_d[5]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {dac_d[6]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {dac_d[5]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {dac_d[4]}]]
+set_property IOSTANDARD SSTL15_R [get_ports [list {dac_d[2]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {dac_d[3]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {dac_d[2]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {dac_d[1]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {dac_d[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {led_out[7]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {led_out[6]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {led_out[5]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {led_out[4]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {led_out[3]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {led_out[2]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {led_out[1]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {led_out[0]}]]
+save_constraints
+launch_runs synth_1 -jobs 6
+WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
+[Tue Nov 15 09:32:06 2022] Launched synth_1...
+Run output will be captured here: C:/Git/ECE_exp2/project_3/project_6/project_6.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 6
+[Tue Nov 15 09:34:23 2022] Launched impl_1...
+Run output will be captured here: C:/Git/ECE_exp2/project_3/project_6/project_6.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Tue Nov 15 09:36:20 2022] Launched impl_1...
+Run output will be captured here: C:/Git/ECE_exp2/project_3/project_6/project_6.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2022.1
+  **** Build date : Apr 18 2022 at 16:02:36
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2022.1.0
+  ****** Build date   : Apr 13 2022-04:12:08
+    **** Build number : 2022.1.1649790728
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:03 ; elapsed = 00:00:17 . Memory (MB): peak = 2094.195 ; gain = 0.145
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/2224e50057a781
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Xilinx/2224e50057a781.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/2224e50057a781
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3414] Connected to existing cs_server.
+connect_hw_server: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 2100.766 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/2224e50057a781
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Xilinx/2224e50057a781.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/2224e50057a781
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3414] Connected to existing cs_server.
+connect_hw_server: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 2100.766 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/2224e500e94f81
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Xilinx/2224e500e94f81.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Xilinx/2224e500e94f81
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3414] Connected to existing cs_server.
+connect_hw_server: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 2100.766 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/2224e500e94f81
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Xilinx/2224e500e94f81.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors.
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Nov 15 09:45:07 2022...
